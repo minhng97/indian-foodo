@@ -1,0 +1,84 @@
+.the-menu__2 {
+  display: grid;
+  grid-template-columns: 150px 2fr 150px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  background-color: #d4d8d9;
+  z-index: 10;
+  flex-wrap: wrap;
+  color: #3d4b4f;
+  overflow: hidden;
+}
+
+.the-menu__2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: firt-baseline;
+  align-items: center;
+  flex: 0 0 15em;
+  text-align: center;
+}
+
+.the-menu__2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.the-menu__2 a {
+  padding: 10px 12px;
+  color: #2a3b40;
+}
+
+.the-menu__2 img {
+  background-size: cover;
+}
+
+.the-menu__new {
+  background-color: #dde1e3d7;
+  width: 100vw;
+  margin-top: 400px;
+  padding: 50px 150px 0px 150px;
+}
+.the-menu__new .lead-banner {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 100%;
+  padding: 0;
+  background-color: #ffffff00;
+}
+
+.the-menu__new .food-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  width: 100%;
+  max-height: fit-content;
+  grid-gap: 0 27px;
+  justify-content: center;
+}
+
+.the-menu__new div {
+  display: block;
+}
+
+.the-menu__new .card {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 100%;
+}
+.the-menu__new .card p {
+  font-size: 1em;
+  color: #2c3a42;
+  float: right;
+}
+.the-menu__new .card img {
+  max-width: 68px;
+  max-height: 74px;
+  float: left;
+}
+
+/*# sourceMappingURL=indianfood.css.map */
